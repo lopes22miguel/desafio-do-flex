@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background: linear-gradient(135deg, #ff0000, #0000ff);
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card:nth-child(2) {
+    background: linear-gradient(135deg, #00ff00, #00aaaa);
+}
+
+.card:nth-child(3) {
+    background: linear-gradient(135deg, #ff7f00, #ff0000);
+}
+
+button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
